@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace KAtext.System
+// ReSharper disable once CheckNamespace
+namespace System
 {
     /// <summary>
     /// String extension methods.
