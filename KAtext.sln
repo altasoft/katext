@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAtext", "KAtext\KAtext.csproj", "{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3C559807-775F-484F-9933-0202CAD9C1DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0} = {3C559807-775F-484F-9933-0202CAD9C1DF}
+	EndGlobalSection
+EndGlobal
