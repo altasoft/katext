@@ -126,7 +126,7 @@ namespace System
             }
 
             var bytes = Encoding.Unicode.GetBytes(value);
-            
+
             for (var i = 0; i < bytes.Length; i += 2)
             {
                 var code = (bytes[i + 1] << 8) + bytes[i];
@@ -188,7 +188,7 @@ namespace System
 
                 if (code >= 0x10EF && code <= 0x10F0)
                 {
-                    bytes[i] = (byte)(code - 4108);                    
+                    bytes[i] = (byte)(code - 4108);
                 }
             }
 
@@ -288,7 +288,7 @@ namespace System
                 return value;
             }
 
-            var result = new StringBuilder(value.Length);
+            var output = new StringBuilder(value.Length);
 
             foreach (var c in value)
             {
@@ -296,15 +296,34 @@ namespace System
 
                 if (GeorgianToLatCharMap.TryGetValue(c, out lat))
                 {
-                    result.Append(result.Length == 0 && capitalizeFirst ? lat.ToUpper() : lat);
+                    output.Append(lat);
                 }
                 else
                 {
-                    result.Append(c);
+                    output.Append(c);
                 }
             }
 
-            return result.ToString();
+            var result = output.ToString();
+
+            return capitalizeFirst ? result.CapitalizeFirst() : result;
+        }
+
+        private static string CapitalizeFirst(this string value)
+        {
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                return value;
+            }
+
+            var output = new StringBuilder(value.Length).Append(char.ToUpper(value[0]));
+
+            if (value.Length > 1)
+            {
+                output.Append(value.Substring(1));
+            }
+
+            return output.ToString();
         }
     }
 }
