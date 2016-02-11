@@ -98,6 +98,9 @@ namespace System
                 'ძ', "dz"
             },
             {
+                'წ', "ts"
+            },
+            {
                 'ჭ', "tch"
             },
             {
