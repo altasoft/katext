@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3C559807-775F-484F-9933-0202CAD9C1DF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B58EF11F-E62B-4D8F-B0A3-C486CFEEC580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAtext", "src\KAtext\KAtext.csproj", "{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KAtext", "src\KAtext\KAtext.csproj", "{A71CBAA5-0948-4CA2-8306-CBF37E9F2702}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,15 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71CBAA5-0948-4CA2-8306-CBF37E9F2702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71CBAA5-0948-4CA2-8306-CBF37E9F2702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71CBAA5-0948-4CA2-8306-CBF37E9F2702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71CBAA5-0948-4CA2-8306-CBF37E9F2702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{39B73581-4BA2-4C1B-81AF-BFC73ECDF9A0} = {3C559807-775F-484F-9933-0202CAD9C1DF}
+		{A71CBAA5-0948-4CA2-8306-CBF37E9F2702} = {B58EF11F-E62B-4D8F-B0A3-C486CFEEC580}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A353DACE-DFC4-4F54-91B0-C1B184F116F6}
 	EndGlobalSection
 EndGlobal
