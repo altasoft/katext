@@ -1,14 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp1.1;netcoreapp2.0;net45;net40</TargetFrameworks>
+    <TargetFramework>netstandard1.3</TargetFramework>
     <Authors>Nikoloz Pachuashvili</Authors>
     <Company>ALTA Software</Company>
-    <PackageProjectUrl>http://github.com/altasoft/katext</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/altasoft/katext</PackageProjectUrl>
     <Description>Georgian text extensions</Description>
     <PackageTags>KA KA-ge Georgian text</PackageTags>
-    <RepositoryUrl>http://github.com/altasoft/katext</RepositoryUrl>
+    <RepositoryUrl>https://github.com/altasoft/katext</RepositoryUrl>
     <Copyright>Copyright © ALTA Software Ltd. 2017</Copyright>
+    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
