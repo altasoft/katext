@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFrameworks>netstandard1.3;net45</TargetFrameworks>
     <Authors>Nikoloz Pachuashvili</Authors>
     <Company>ALTA Software</Company>
     <PackageProjectUrl>https://github.com/altasoft/katext</PackageProjectUrl>
@@ -9,7 +9,7 @@
     <PackageTags>KA KA-ge Georgian text</PackageTags>
     <RepositoryUrl>https://github.com/altasoft/katext</RepositoryUrl>
     <Copyright>Copyright © ALTA Software Ltd. 2017</Copyright>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
